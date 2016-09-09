@@ -1,0 +1,20 @@
+body {
+    font-size: 12px;
+    line-height: 16px;
+}
+li {
+    margin: 0;
+    padding: 0.2em;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table th {
+    border: 1px solid black;
+    padding: 5px;
+}
