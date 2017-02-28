@@ -22,10 +22,12 @@ h2 {                            /* Header 1 */
 h3 {                            /* Header 2 */
     font-size: 18px;
     padding-left: 15px;
+    padding-bottom: 5px;
     margin: 0;
 }
 h4 {                            /* Header 3 */
     font-size: 14px;
+    padding-bottom: 5px;
     font-style: italic;
 }
 h5 {                            /* Sub-title */
