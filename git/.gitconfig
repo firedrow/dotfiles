@@ -1,3 +1,6 @@
 [user]
 	email = lee.rowland@gmail.com
 	name = Dustin Rowland
+[core]
+	autocrlf = input
+	safecrlf = true
