@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/                 file:///usr/share/openbox/menu.xsd">
+	<menu id="root-menu" label="Openbox 3">
+		<item label="Terminal emulator">
+			<action name="Execute">
+				<execute>terminator</execute>
+			</action>
+		</item>
+		<item label="Web browser">
+			<action name="Execute">
+				<execute>x-www-browser</execute>
+			</action>
+		</item>
+		<item label="Atom.io">
+			<action name="Execute">
+				<execute>atom</execute>
+			</action>
+		</item>
+		<item label="Office Suite">
+			<action name="Execute">
+				<execute>libreoffice</execute>
+			</action>
+		</item>
+		<!-- This requires the presence of the 'menu' package to work -->
+		<menu id="/Debian"/>
+		<separator/>
+		<menu id="client-list-menu"/>
+		<separator/>
+		<menu id="root-menu-812343" label="System">
+			<item label="Openbox Appearance">
+				<action name="Execute">
+					<execute>obconf</execute>
+				</action>
+			</item>
+			<item label="Openbox Menu">
+				<action name="Execute">
+					<execute>obmenu</execute>
+				</action>
+			</item>
+			<item label="tint2 Config">
+				<action name="Execute">
+					<execute>tint2conf</execute>
+				</action>
+			</item>
+			<item label="Display">
+				<action name="Execute">
+					<execute>lxrandr</execute>
+				</action>
+			</item>
+			<item label="Inputs">
+				<action name="Execute">
+					<execute>lxinput</execute>
+				</action>
+			</item>
+			<separator/>
+			<item label="Openbox Reconfigure">
+				<action name="Reconfigure"/>
+			</item>
+			<item label="Openbox Restart">
+				<action name="Restart"/>
+			</item>
+		</menu>
+		<separator/>
+		<item label="Exit">
+			<action name="Exit"/>
+		</item>
+	</menu>
+</openbox_menu>
