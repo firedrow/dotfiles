@@ -1,0 +1,56 @@
+/* CSS formatting to match my preferred Word Style, Minimalist*/
+/* Used in CSS Header for GhostWriter MultiMarkDown formatting */
+body {
+    font-family: Calibri, Segoe, "Segoe UI", Arial, san-serif;
+    font-size: 14px;
+}
+h1 {                            /* Title */
+    font-size: 38px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+h2 {                            /* Header 1 */
+    font-size: 18px;
+    padding-left: 15px;
+    margin: 0;
+    border-left: 1px solid orange;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+h3 {                            /* Header 2 */
+    font-size: 18px;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+h4 {                            /* Header 3 */
+    font-size: 14px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+h5 {                            /* Sub-title */
+    font-size: 12px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 0.2em;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+table th {
+    border: 1px solid black;
+    padding: 5px;
+}
