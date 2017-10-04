@@ -1,2 +1,2 @@
-# Misc Files
-The files contained here are just for random projects or somewhere I can test hosted/reference files.
+# dotfiles
+Here are copies of my linux dotfiles, backed up to Github and installed using [GNU stow](https://taihen.org/managing-dotfiles-with-gnu-stow/).
