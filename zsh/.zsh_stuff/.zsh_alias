@@ -12,3 +12,4 @@ alias pip='python -m pip'
 
 # Remote Servers
 alias ssh_do='ssh drowland@rowland.pw -i ~/.ssh/digitalocean_rsa'
+alias ssh_home='ssh drowland@home.rowland.pw -p 2200'
