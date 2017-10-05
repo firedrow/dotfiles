@@ -1,0 +1,14 @@
+# Directory and file information
+alias ls='ls --color=auto'
+alias ll='ls -ahl --color=auto'
+
+# Navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+
+# Python
+alias python=/usr/bin/python3
+alias pip='python -m pip'
+
+# Remote Servers
+alias ssh_do='ssh drowland@rowland.pw -i ~/.ssh/digitalocean_rsa'
