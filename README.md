@@ -4,17 +4,17 @@ Here are copies of my linux dotfiles, backed up to Github and installed using [G
 
 ## Intel Stick - Ubuntu
 
-stow git
-stow nano
-stow ssh
+stow git <br />
+stow nano <br />
+stow ssh <br />
 stow zsh
 
 ## Virtualbox - Ubuntu
 
-stow git
-stow nano
-stow openbox
-stow ssh
-stow terminator
-stow tint2
+stow git <br />
+stow nano <br />
+stow openbox <br />
+stow ssh <br />
+stow terminator <br />
+stow tint2 <br />
 stow zsh
