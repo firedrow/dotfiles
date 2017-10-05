@@ -1,4 +1,4 @@
 Host    github.com
     Hostname    github.com
-    IdentityFile    ~/.ssh/ssh_github
+    IdentityFile    ~/.ssh/github_rsa
     IdentitiesOnly  yes
