@@ -1,6 +1,7 @@
 # Directory and file information
 alias ls='ls --color=auto'
 alias ll='ls -ahl --color=auto'
+alias stow='stow -d ~/dotfiles'
 
 # Navigation
 alias ..='cd ..'
