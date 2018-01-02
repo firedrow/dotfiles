@@ -11,20 +11,17 @@ Here are copies of my linux dotfiles, backed up to Github and installed using [G
 5. Copy ZSH files to get aliases
     1. ```stow -d ~/.dotfiles zsh```
 6. Logout and back into shell
-
-
-## Intel Stick - Ubuntu
-
-stow git <br />
-stow nano <br />
-stow ssh <br />
-stow zsh
+7. Remove .ssh/config
+8. stow ssh
+9. stow nano
+10. stow tmux
+11. stow git
 
 ## Virtualbox - Ubuntu
 
-stow git <br />
-stow nano <br />
-stow openbox <br />
+* stow git <br />
+* stow nano <br />
+* stow openbox <br />
 stow ssh <br />
 stow terminator <br />
 stow tint2 <br />
