@@ -16,6 +16,8 @@ Here are copies of my linux dotfiles, backed up to Github and installed using [G
 9. stow nano
 10. stow tmux
 11. stow git
+12. Manually copy the digitalocean_rsa from pCloud to .ssh, change permissions to 600
+13. Manually copy the home_rsa from pCloud to .ssh, change permissions to 600
 
 ## Virtualbox - Ubuntu
 
