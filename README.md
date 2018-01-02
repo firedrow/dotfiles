@@ -19,10 +19,10 @@ Here are copies of my linux dotfiles, backed up to Github and installed using [G
 
 ## Virtualbox - Ubuntu
 
-* stow git <br />
-* stow nano <br />
-* stow openbox <br />
-stow ssh <br />
-stow terminator <br />
-stow tint2 <br />
-stow zsh
+* stow git
+* stow nano
+* stow openbox
+* stow ssh
+* stow terminator
+* stow tint2
+* stow zsh
