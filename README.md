@@ -9,7 +9,7 @@ Here are copies of my linux dotfiles, backed up to Github and installed using [G
 3. git clone dotfiles repo
 4. Install stow
 5. Copy ZSH files to get aliases
-    1. stow -d ~/.dotfiles zsh
+    1. ```stow -d ~/.dotfiles zsh```
 6. Logout and back into shell
 
 
