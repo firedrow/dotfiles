@@ -1,2 +1,3 @@
 sh ~/.fehbg &
 (sleep 2s && tint2) &
+(sleep 2s && xscreensaver -nosplash) &

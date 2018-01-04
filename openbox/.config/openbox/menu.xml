@@ -22,6 +22,11 @@
 			</action>
 		</item>
 		<!-- This requires the presence of the 'menu' package to work -->
+		<item label="Gaming Portal">
+			<action name="Execute">
+				<execute>steam</execute>
+			</action>
+		</item>
 		<menu id="/Debian"/>
 		<separator/>
 		<menu id="client-list-menu"/>
@@ -50,6 +55,16 @@
 			<item label="Inputs">
 				<action name="Execute">
 					<execute>lxinput</execute>
+				</action>
+			</item>
+			<item label="Screensaver">
+				<action name="Execute">
+					<execute>xscreensaver</execute>
+				</action>
+			</item>
+			<item label="Firewall">
+				<action name="Execute">
+					<execute>gksu gufw</execute>
 				</action>
 			</item>
 			<separator/>
